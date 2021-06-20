@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  SportEasyTest
+
+  Created by Clément Martin on 20/06/2021.
+  
+*/
+"calendar" = "Calendrier";
+"alert_loading" = "Chargement...";
+"warning" = "Attention";
+"ok" = "Ok";
+"retry" = "Recommencer";
+// - Message Error
+"alert_connection_msg" = "Le serveur n'est pas joignable. Merci de vérifier votre connexion internet.";
+"api_json_error_title" = "Problème parsing";
+"api_json_error_msg" = "Un problème est survenue au moment de parser les données, contactez le developpeur.";
+"alert_connection_title" = "Problème de connexion";
