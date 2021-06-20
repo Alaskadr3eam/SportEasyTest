@@ -21,11 +21,11 @@ class BaseTableViewController: UITableViewController {
         self.navigationController?.navigationBar.barTintColor = AppTheme.AppColor.blueSE
     }
 
-    func setupTableView() {
-        self.tableView.rowHeight = 120
+    func setupTableView(rowHeight: CGFloat, allowSelection: Bool) {
+        self.tableView.rowHeight = rowHeight
         self.tableView.contentInset.top = 20
         self.tableView.separatorStyle = .none
-        self.tableView.allowsSelection = false
+        self.tableView.allowsSelection = allowSelection
         self.tableView.backgroundColor = AppTheme.AppColor.appBackground
     }
     // MARK: - ActivityIndicator Controller

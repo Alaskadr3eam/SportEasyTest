@@ -27,6 +27,9 @@
 		314D25DF267F7553008C6517 /* UIViewController+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D25DE267F7553008C6517 /* UIViewController+AlertController.swift */; };
 		314D25E2267F7729008C6517 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D25E0267F7729008C6517 /* ResultTableViewCell.swift */; };
 		314D25E3267F7729008C6517 /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 314D25E1267F7729008C6517 /* ResultTableViewCell.xib */; };
+		314D25E6267F8562008C6517 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D25E5267F8562008C6517 /* Event.swift */; };
+		314D25E9267F862A008C6517 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D25E8267F862A008C6517 /* EventModel.swift */; };
+		314D25EB267F8644008C6517 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D25EA267F8644008C6517 /* API.swift */; };
 		3D86EFFBACF274AE5839CFDC /* Pods_SportEasyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157F8D295BB22A65FE85B7AA /* Pods_SportEasyTest.framework */; };
 		AE1B34D622D9B9720676F27A /* Pods_SportEasyTest_SportEasyTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E713C5B2E6A7A4D43CCC6AC6 /* Pods_SportEasyTest_SportEasyTestUITests.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +80,9 @@
 		314D25DE267F7553008C6517 /* UIViewController+AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertController.swift"; sourceTree = "<group>"; };
 		314D25E0267F7729008C6517 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 		314D25E1267F7729008C6517 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		314D25E5267F8562008C6517 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		314D25E8267F862A008C6517 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		314D25EA267F8644008C6517 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4D38C70348FDBAC51846E7B5 /* Pods-SportEasyTest-SportEasyTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportEasyTest-SportEasyTestUITests.release.xcconfig"; path = "Target Support Files/Pods-SportEasyTest-SportEasyTestUITests/Pods-SportEasyTest-SportEasyTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B78F7A4C6D8D3CF8A7008227 /* Pods-SportEasyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportEasyTest.debug.xcconfig"; path = "Target Support Files/Pods-SportEasyTest/Pods-SportEasyTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C3D6459BA63CD33CD1EDFB6E /* Pods-SportEasyTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportEasyTestTests.debug.xcconfig"; path = "Target Support Files/Pods-SportEasyTestTests/Pods-SportEasyTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +151,7 @@
 				314D25C6267F7098008C6517 /* Network */,
 				314D25A4267F6FAF008C6517 /* Info.plist */,
 				314D25D3267F7328008C6517 /* BaseTableViewController.swift */,
+				314D25E4267F8553008C6517 /* Objet */,
 				314D25D8267F7361008C6517 /* EventTableViewController.swift */,
 				314D25E0267F7729008C6517 /* ResultTableViewCell.swift */,
 				314D25E1267F7729008C6517 /* ResultTableViewCell.xib */,
@@ -178,6 +185,7 @@
 				314D25CB267F715C008C6517 /* AlertMessage.swift */,
 				314D25CD267F718F008C6517 /* Manager.swift */,
 				314D25CF267F71A6008C6517 /* APIError.swift */,
+				314D25EA267F8644008C6517 /* API.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -216,6 +224,23 @@
 				314D25DE267F7553008C6517 /* UIViewController+AlertController.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		314D25E4267F8553008C6517 /* Objet */ = {
+			isa = PBXGroup;
+			children = (
+				314D25E5267F8562008C6517 /* Event.swift */,
+				314D25E7267F8618008C6517 /* New Group */,
+			);
+			path = Objet;
+			sourceTree = "<group>";
+		};
+		314D25E7267F8618008C6517 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				314D25E8267F862A008C6517 /* EventModel.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		391863269F69D551A63FF4A7 /* Pods */ = {
@@ -484,6 +509,7 @@
 				314D25DF267F7553008C6517 /* UIViewController+AlertController.swift in Sources */,
 				314D25DC267F7401008C6517 /* AppTheme.swift in Sources */,
 				314D259E267F6FAC008C6517 /* SportEasyTest.xcdatamodeld in Sources */,
+				314D25E6267F8562008C6517 /* Event.swift in Sources */,
 				314D2594267F6FAC008C6517 /* AppDelegate.swift in Sources */,
 				314D25CE267F718F008C6517 /* Manager.swift in Sources */,
 				314D25D9267F7361008C6517 /* EventTableViewController.swift in Sources */,
@@ -492,6 +518,8 @@
 				314D25E2267F7729008C6517 /* ResultTableViewCell.swift in Sources */,
 				314D25CA267F712D008C6517 /* APIEndpoint.swift in Sources */,
 				314D25CC267F715C008C6517 /* AlertMessage.swift in Sources */,
+				314D25E9267F862A008C6517 /* EventModel.swift in Sources */,
+				314D25EB267F8644008C6517 /* API.swift in Sources */,
 				314D25D0267F71A6008C6517 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
