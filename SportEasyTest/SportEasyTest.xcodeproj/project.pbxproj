@@ -144,17 +144,15 @@
 		314D2592267F6FAB008C6517 /* SportEasyTest */ = {
 			isa = PBXGroup;
 			children = (
+				314D25ED267F895E008C6517 /* Controller */,
 				314D25DD267F7520008C6517 /* Extension */,
 				314D25DA267F73F1008C6517 /* Constant */,
 				314D25D2267F71DE008C6517 /* Storyboard */,
 				314D25D1267F71C6008C6517 /* SupportingFile */,
 				314D25C6267F7098008C6517 /* Network */,
 				314D25A4267F6FAF008C6517 /* Info.plist */,
-				314D25D3267F7328008C6517 /* BaseTableViewController.swift */,
-				314D25E4267F8553008C6517 /* Objet */,
-				314D25D8267F7361008C6517 /* EventTableViewController.swift */,
-				314D25E0267F7729008C6517 /* ResultTableViewCell.swift */,
-				314D25E1267F7729008C6517 /* ResultTableViewCell.xib */,
+				314D25E7267F8618008C6517 /* Model */,
+				314D25EC267F8947008C6517 /* View */,
 			);
 			path = SportEasyTest;
 			sourceTree = "<group>";
@@ -230,17 +228,35 @@
 			isa = PBXGroup;
 			children = (
 				314D25E5267F8562008C6517 /* Event.swift */,
-				314D25E7267F8618008C6517 /* New Group */,
 			);
 			path = Objet;
 			sourceTree = "<group>";
 		};
-		314D25E7267F8618008C6517 /* New Group */ = {
+		314D25E7267F8618008C6517 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				314D25E4267F8553008C6517 /* Objet */,
 				314D25E8267F862A008C6517 /* EventModel.swift */,
 			);
-			path = "New Group";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		314D25EC267F8947008C6517 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				314D25E0267F7729008C6517 /* ResultTableViewCell.swift */,
+				314D25E1267F7729008C6517 /* ResultTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		314D25ED267F895E008C6517 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				314D25D3267F7328008C6517 /* BaseTableViewController.swift */,
+				314D25D8267F7361008C6517 /* EventTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		391863269F69D551A63FF4A7 /* Pods */ = {
