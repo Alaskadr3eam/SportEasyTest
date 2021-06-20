@@ -8,7 +8,7 @@
 import UIKit
 
 class EventTableViewController: BaseTableViewController {
-
+    // MARK: - Propertie
     let event = EventModel()
 
     override func viewDidLoad() {

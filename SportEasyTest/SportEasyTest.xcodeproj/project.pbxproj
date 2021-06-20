@@ -149,7 +149,7 @@
 			children = (
 				314D25ED267F895E008C6517 /* Controller */,
 				314D25DD267F7520008C6517 /* Extension */,
-				314D25DA267F73F1008C6517 /* Constant */,
+				314D25DA267F73F1008C6517 /* Theme */,
 				314D25D2267F71DE008C6517 /* Storyboard */,
 				314D25D1267F71C6008C6517 /* SupportingFile */,
 				314D25C6267F7098008C6517 /* Network */,
@@ -212,12 +212,12 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		314D25DA267F73F1008C6517 /* Constant */ = {
+		314D25DA267F73F1008C6517 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
 				314D25DB267F7401008C6517 /* AppTheme.swift */,
 			);
-			path = Constant;
+			path = Theme;
 			sourceTree = "<group>";
 		};
 		314D25DD267F7520008C6517 /* Extension */ = {
